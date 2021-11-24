@@ -1,0 +1,14 @@
+package br.com.aulacore;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
+@SpringBootApplication
+public class AulaCoreApplication extends SpringBootServletInitializer{
+
+	public static void main(String[] args) {
+		SpringApplication.run(AulaCoreApplication.class, args);
+	}
+
+}

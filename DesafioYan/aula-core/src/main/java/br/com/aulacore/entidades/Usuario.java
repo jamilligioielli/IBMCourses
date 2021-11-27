@@ -23,13 +23,13 @@ public class Usuario {
 
     @Basic
     @Column(name="NOME_USR")
-    private int nomeUsuario;
+    private String nomeUsuario;
 
     @Basic
     @Column(name="CPF_USR")
-    private int cpfUsuario;
+    private String cpfUsuario;
 
     @Basic
     @Column(name="RG_USR")
-    private int rgUsuario;
+    private String rgUsuario;
 }

@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AulaCoreApplication<aula-core>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.com.aulacore.AulaCoreApplication",
+            "projectName": "aula-core",
+            "args": ""
+        }
+    ]
+}

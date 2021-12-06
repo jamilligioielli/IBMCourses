@@ -24,6 +24,16 @@ public class ServicoUsuario {
         repositorioUsuario.save(usuario);
     }
 
+    public Usuario atualizarUsuario(Usuario usuario) {
+        Usuario user = new Usuario();
+        user.setIdUsuario(usuario.getIdUsuario());
+        user.setNomeUsuario(usuario.getNomeUsuario());
+        user.setRgUsuario(usuario.getRgUsuario());
+        user.setCpfUsuario(usuario.getCpfUsuario());
+
+        return repositorioUsuario.save(user);
+    }
+
     public void excluirUsuario(Usuario usuario){
         repositorioUsuario.delete(usuario);
     }

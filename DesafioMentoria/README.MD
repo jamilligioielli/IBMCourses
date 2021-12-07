@@ -5,7 +5,7 @@
 ### Mentor: Yan Araujo
 ---
 > Visão inicial do app
-![](/img/homePage.png)
+![](./img/homePage.png)
 ---
 > Editar usuário
-![](/img/updateUser.png)
+![](./img/updateUser.png)

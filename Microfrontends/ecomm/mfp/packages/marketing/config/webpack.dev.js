@@ -8,6 +8,9 @@ const packageJson = require('../package.json')
 
 const devConfig = {
 	mode: 'development',
+	output: {
+		publicPath: 'http://localhost:8081/'
+	},
 	devServer: {
 		port: 8081,
 		historyApiFallback: {
@@ -22,11 +25,11 @@ const devConfig = {
 				'./MarketingApp': './src/bootstrap'
 			},
 			// this will return a js object with all the dependencies
-			// it works bettwer in this case, because we will need react 
+			// it works bettwer in this case, because we will need react
 			// but if you want to be very specific, u can add an array like ['shared modules']
 			// this will also reduce the js mb loaded in the browser and it will update the shared modules
 			// automatically from json, so you dont need to add it manually
-			shared: packageJson.dependencies,
+			shared: packageJson.dependencies
 		}),
 		new HTMLWebpackPlugin({
 			template: './public/index.html'

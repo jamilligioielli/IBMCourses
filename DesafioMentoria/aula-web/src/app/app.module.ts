@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { NgxMaskModule, IConfig } from 'ngx-mask'
 import { ListaUsuarioComponent } from './lista-usuario/lista-usuario.component';
 import { IncluiUsuarioComponent } from './inclui-usuario/inclui-usuario.component';
+import { RouterModule } from '@angular/router';
 
 // export const options: Partial<IConfig> | (() => Partial<IConfig>) = null;
 
@@ -21,11 +22,12 @@ import { IncluiUsuarioComponent } from './inclui-usuario/inclui-usuario.componen
     IncluiUsuarioComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
     NgxMaskModule.forRoot(),
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

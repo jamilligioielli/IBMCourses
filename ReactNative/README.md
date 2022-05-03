@@ -12,10 +12,10 @@ O curso abrange os fundamentos do React e seu ciclo de vida, criação de compon
 
 Além de todos os fundamentos, criaremos mais quatro projetos, inspirados em aplicações já famosas e conhecidas por todos:
 
-1. Calculadora: Para ver como podemos organizar os elementos através de componentes
+1. [Calculadora](./Calculator): Para ver como podemos organizar os elementos através de componentes
 
-2. Campo Minado: Para fixarmos os fundamentos do flexbox e nos divertir com esse jogo
+2. [Campo Minado](./Mines): Para fixarmos os fundamentos do flexbox e nos divertir com esse jogo
 
 3. ToDo List: Com um layout bonito e mais elaborado. Vamos também criar uma API Rest em NodeJS como backend, integrando também com um banco relacional
 
-4. Intragram: Nessa aplicação, vamos integrar a câmera e galeria de imagens do dispositivo, vamos utilizar o Firebase como backend e seu banco NoSQL, sua autenticação e até mesmo seu serviço de storage.
+4. Instagram: Nessa aplicação, vamos integrar a câmera e galeria de imagens do dispositivo, vamos utilizar o Firebase como backend e seu banco NoSQL, sua autenticação e até mesmo seu serviço de storage.

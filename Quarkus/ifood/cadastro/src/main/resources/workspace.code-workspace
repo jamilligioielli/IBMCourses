@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"name": "cadastro",
+			"path": "../../.."
+		},
+		{
+			"name": "marketplace",
+			"path": "../../../../marketplace"
+		},
+		{
+			"name": "pedido",
+			"path": "../../../../pedido"
+		}
+	],
+	"settings": {
+		"java.completion.enabled": false,
+		"java.debug.settings.enableRunDebugCodeLens": false,
+		"java.test.editor.enableShortcuts": false,
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"java.saveActions.organizeImports": true
+	}
+}
